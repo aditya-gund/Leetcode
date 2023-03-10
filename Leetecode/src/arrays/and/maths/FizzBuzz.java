@@ -1,7 +1,9 @@
 package arrays.and.maths;
 import java.util.*;
 public class FizzBuzz {
-
+	/* Time Complexity : O(n)
+	 * Space Complexity: O(n)
+	 */
 	public List<String> fizzBuzz(int n){
 		ArrayList<String> ans = new ArrayList<>();
 		for(int i=1;i<=n;i++) {
