@@ -21,7 +21,7 @@ public class FizzBuzz {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter a number: ");
 			int n=sc.nextInt();
-			System.out.println(fz.fizzBuzz(15));
+			System.out.println(fz.fizzBuzz(n));
 			
 		
 	}
