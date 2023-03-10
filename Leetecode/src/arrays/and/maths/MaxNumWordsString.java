@@ -1,6 +1,6 @@
 package arrays.and.maths;
 
-
+import java.math.*;
 		/* 2114. Maximum Number of Words Found in Sentences
 		 * Time Complexity: O(n)
 		 * Space Complexity: O(1)
@@ -16,9 +16,9 @@ public class MaxNumWordsString {
 				 if(s.charAt(i)==' ') {
 					 count++;
 				 }
-				 count=0;
 			 }
-			 ans=Math.max(ans, count);
+			  ans=Math.max(ans, count);
+			  count=0;
 		 }
 		 return ans+1;
 	}
