@@ -3,11 +3,9 @@ package arrays.and.maths;
 import java.util.Arrays;
 import java.util.Scanner;
 
- /*	Problem:1929. Concatenation of Array
-  * 
-  *  Time Complexity: O(n)
-  * Space Complexity: O(n)
-  */
+ 					/*Problem:1929. Concatenation of Array
+ 					 *Time Complexity: O(n)
+ 					 *Space Complexity: O(n)*/
 public class ConcatenationArray {
 
 	public void ArrayConcatenation(int nums[]){
@@ -32,8 +30,9 @@ public class ConcatenationArray {
 		System.out.println("Enter number of Elements in Array: ");
 		int n=sc.nextInt();
 		int[] nums= new int[n];
-		System.out.println("Enter Elements in Array: ");
+//		System.out.println("Enter Elements in Array: ");
 		for(int i=0;i<n;i++) {
+			System.out.println("Enter "+i+" th element in an Array: ");
 			nums[i]=sc.nextInt();
 		}
 		ConcatenationArray arr = new ConcatenationArray();
