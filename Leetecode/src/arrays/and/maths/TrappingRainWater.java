@@ -5,8 +5,6 @@ package arrays.and.maths;
 		 * Space Complexity:O(1)
 		 */
 
-		
-
 public class TrappingRainWater {
 	
 	public static void trap(int[] height) {
@@ -34,10 +32,10 @@ public class TrappingRainWater {
 	}
 	
 	public static void main(String[] args) {
-		int[] nums2= {4,2,0,3,2,5};
-		printArray(nums2);
+		int[] nums= {4,2,0,3,2,5};
+		printArray(nums);
 		System.out.println();
-		trap(nums2);
+		trap(nums);
 	}
 
 }
